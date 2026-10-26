@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-26T23:45:00+08:00",
+  "isDemoData": true,
+  "disclaimer": "本索引仅用于 AG Store M1.1 的在线刷新测试：下面三条作品全部为虚构的全年龄测试数据，不对应任何真实游戏、真实资源或可下载文件；全部下载入口均为占位（url 为 null），不含真实下载链接、网盘地址、外部图片或任何第三方素材依赖。",
+  "source": {
+    "kind": "github-raw",
+    "path": "docs/online-test/games.json",
+    "note": "M1.1 在线刷新测试索引，手工维护；测试结束后可删除，不影响应用内置的 assets/games.json。"
+  },
+  "games": [
+    {
+      "id": "online-test-m1-1-remote-index",
+      "title": "远程索引测试作品 M1.1",
+      "originalTitle": "Remote Index Test Build M1.1",
+      "developer": "在线刷新测试组（虚构）",
+      "releaseYear": 2026,
+      "ageRating": "全年龄（12+）",
+      "tagline": "如果列表里出现这一条，就说明远程索引真的被拉取并校验通过了。",
+      "summary": "这是 AG Store M1.1 在线刷新测试专用的虚构条目，不存在于任何真实商店或发布渠道。它唯一的作用是：当应用成功从远程地址取回本文件、通过 schema 与字段校验、并写入本地缓存后，你可以在首页列表中看到它，从而确认「远程索引 → 校验 → 缓存 → 界面」这条链路是通的。它没有封面图、没有下载文件，也不需要任何外部素材。",
+      "genres": [
+        "测试",
+        "悬疑"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "languages": [
+        "简体中文"
+      ],
+      "rating": 4.0,
+      "playtimeHours": 1,
+      "accentColor": "#1E88E5",
+      "isDemo": true,
+      "downloads": [
+        {
+          "kind": "direct_link",
+          "label": "直链下载（测试占位）",
+          "url": null,
+          "available": false,
+          "note": "测试数据，不提供任何真实文件地址"
+        },
+        {
+          "kind": "cloud_share",
+          "label": "网盘分享（测试占位）",
+          "url": null,
+          "available": false,
+          "note": "测试数据，不接入任何网盘或提取码流程"
+        },
+        {
+          "kind": "source_page",
+          "label": "原始资源页（测试占位）",
+          "url": null,
+          "available": false,
+          "note": "测试数据，无真实来源页可跳转"
+        }
+      ]
+    },
+    {
+      "id": "online-test-m1-1-glass-rain",
+      "title": "玻璃雨（虚构测试条目）",
+      "originalTitle": "Glass Rain (Fictional Test Entry)",
+      "developer": "在线刷新测试组（虚构）",
+      "releaseYear": 2026,
+      "ageRating": "全年龄（12+）",
+      "tagline": "一场只落在玻璃温室里的雨，测试用的第二杯茶。",
+      "summary": "完全虚构的第二条测试条目，用于确认远程索引支持多条作品、并且分类与搜索在刷新后依然正常。故事设定是一个只会下玻璃雨的温室，园丁每天把碎掉的雨扫进抽屉；没有真实作品对应，也没有任何可下载内容。",
+      "genres": [
+        "测试",
+        "日常"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "languages": [
+        "简体中文"
+      ],
+      "rating": 3.8,
+      "playtimeHours": 2,
+      "accentColor": "#2E7D6F",
+      "isDemo": true,
+      "downloads": [
+        {
+          "kind": "direct_link",
+          "label": "直链下载（测试占位）",
+          "url": null,
+          "available": false,
+          "note": "测试数据，不提供任何真实文件地址"
+        },
+        {
+          "kind": "cloud_share",
+          "label": "网盘分享（测试占位）",
+          "url": null,
+          "available": false,
+          "note": "测试数据，不接入任何网盘或提取码流程"
+        },
+        {
+          "kind": "source_page",
+          "label": "原始资源页（测试占位）",
+          "url": null,
+          "available": false,
+          "note": "测试数据，无真实来源页可跳转"
+        }
+      ]
+    },
+    {
+      "id": "online-test-m1-1-night-library",
+      "title": "夜读图书馆（虚构测试条目）",
+      "originalTitle": null,
+      "developer": "在线刷新测试组（虚构）",
+      "releaseYear": 2026,
+      "ageRating": "全年龄（12+）",
+      "tagline": "闭馆之后，书架会自己换一次位置。",
+      "summary": "完全虚构的第三条测试条目，用于确认详情页、收藏与下载占位在远程数据下都能正常展示。内容讲一间闭馆后书架会自动重排的图书馆，管理员需要在天亮前把书放回原来的位置；不涉及任何真实作品或素材。",
+      "genres": [
+        "测试",
+        "奇幻"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "languages": [
+        "简体中文"
+      ],
+      "rating": 4.1,
+      "playtimeHours": 3,
+      "accentColor": "#6B4E9B",
+      "isDemo": true,
+      "downloads": [
+        {
+          "kind": "direct_link",
+          "label": "直链下载（测试占位）",
+          "url": null,
+          "available": false,
+          "note": "测试数据，不提供任何真实文件地址"
+        },
+        {
+          "kind": "cloud_share",
+          "label": "网盘分享（测试占位）",
+          "url": null,
+          "available": false,
+          "note": "测试数据，不接入任何网盘或提取码流程"
+        },
+        {
+          "kind": "source_page",
+          "label": "原始资源页（测试占位）",
+          "url": null,
+          "available": false,
+          "note": "测试数据，无真实来源页可跳转"
+        }
+      ]
+    }
+  ]
+}
