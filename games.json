@@ -1,154 +1,326 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T23:45:00+08:00",
-  "isDemoData": true,
-  "disclaimer": "本索引仅用于 AG Store M1.1 的在线刷新测试：下面三条作品全部为虚构的全年龄测试数据，不对应任何真实游戏、真实资源或可下载文件；全部下载入口均为占位（url 为 null），不含真实下载链接、网盘地址、外部图片或任何第三方素材依赖。",
-  "source": {
-    "kind": "github-raw",
-    "path": "docs/online-test/games.json",
-    "note": "M1.1 在线刷新测试索引，手工维护；测试结束后可删除，不影响应用内置的 assets/games.json。"
-  },
+  "updatedAt": "2026-10-27T03:00:00+08:00",
+  "isDemoData": false,
+  "disclaimer": "本索引为 M2 测试目录，仅收录一小批全年龄真实作品。作品身份与基础资料经 VNDB 官方 API 核对；来源页链接经 HTTP 可访问性检查，资源可用状态保持 unknown，不代表可购买、可下载或长期有效。",
   "games": [
     {
-      "id": "online-test-m1-1-remote-index",
-      "title": "远程索引测试作品 M1.1",
-      "originalTitle": "Remote Index Test Build M1.1",
-      "developer": "在线刷新测试组（虚构）",
-      "releaseYear": 2026,
-      "ageRating": "全年龄（12+）",
-      "tagline": "如果列表里出现这一条，就说明远程索引真的被拉取并校验通过了。",
-      "summary": "这是 AG Store M1.1 在线刷新测试专用的虚构条目，不存在于任何真实商店或发布渠道。它唯一的作用是：当应用成功从远程地址取回本文件、通过 schema 与字段校验、并写入本地缓存后，你可以在首页列表中看到它，从而确认「远程索引 → 校验 → 缓存 → 界面」这条链路是通的。它没有封面图、没有下载文件，也不需要任何外部素材。",
-      "genres": [
-        "测试",
-        "悬疑"
-      ],
-      "platforms": [
-        "Android"
-      ],
-      "languages": [
-        "简体中文"
-      ],
-      "rating": 4.0,
-      "playtimeHours": 1,
-      "accentColor": "#1E88E5",
-      "isDemo": true,
-      "downloads": [
-        {
-          "kind": "direct_link",
-          "label": "直链下载（测试占位）",
-          "url": null,
-          "available": false,
-          "note": "测试数据，不提供任何真实文件地址"
-        },
-        {
-          "kind": "cloud_share",
-          "label": "网盘分享（测试占位）",
-          "url": null,
-          "available": false,
-          "note": "测试数据，不接入任何网盘或提取码流程"
-        },
-        {
-          "kind": "source_page",
-          "label": "原始资源页（测试占位）",
-          "url": null,
-          "available": false,
-          "note": "测试数据，无真实来源页可跳转"
-        }
-      ]
-    },
-    {
-      "id": "online-test-m1-1-glass-rain",
-      "title": "玻璃雨（虚构测试条目）",
-      "originalTitle": "Glass Rain (Fictional Test Entry)",
-      "developer": "在线刷新测试组（虚构）",
-      "releaseYear": 2026,
-      "ageRating": "全年龄（12+）",
-      "tagline": "一场只落在玻璃温室里的雨，测试用的第二杯茶。",
-      "summary": "完全虚构的第二条测试条目，用于确认远程索引支持多条作品、并且分类与搜索在刷新后依然正常。故事设定是一个只会下玻璃雨的温室，园丁每天把碎掉的雨扫进抽屉；没有真实作品对应，也没有任何可下载内容。",
-      "genres": [
-        "测试",
-        "日常"
-      ],
-      "platforms": [
-        "Android"
-      ],
-      "languages": [
-        "简体中文"
-      ],
-      "rating": 3.8,
-      "playtimeHours": 2,
-      "accentColor": "#2E7D6F",
-      "isDemo": true,
-      "downloads": [
-        {
-          "kind": "direct_link",
-          "label": "直链下载（测试占位）",
-          "url": null,
-          "available": false,
-          "note": "测试数据，不提供任何真实文件地址"
-        },
-        {
-          "kind": "cloud_share",
-          "label": "网盘分享（测试占位）",
-          "url": null,
-          "available": false,
-          "note": "测试数据，不接入任何网盘或提取码流程"
-        },
-        {
-          "kind": "source_page",
-          "label": "原始资源页（测试占位）",
-          "url": null,
-          "available": false,
-          "note": "测试数据，无真实来源页可跳转"
-        }
-      ]
-    },
-    {
-      "id": "online-test-m1-1-night-library",
-      "title": "夜读图书馆（虚构测试条目）",
+      "id": "narcissu",
+      "title": "narcissu",
       "originalTitle": null,
-      "developer": "在线刷新测试组（虚构）",
-      "releaseYear": 2026,
-      "ageRating": "全年龄（12+）",
-      "tagline": "闭馆之后，书架会自己换一次位置。",
-      "summary": "完全虚构的第三条测试条目，用于确认详情页、收藏与下载占位在远程数据下都能正常展示。内容讲一间闭馆后书架会自动重排的图书馆，管理员需要在天亮前把书放回原来的位置；不涉及任何真实作品或素材。",
+      "developer": "Stage-nana / Regista Co.,Ltd.",
+      "releaseYear": 2005,
+      "ageRating": "全年龄（本地标注）",
+      "tagline": "Stage-nana 于 2005 年发行的全年龄视觉小说。",
+      "summary": "本条目的标题、开发者与发行信息已按 VNDB v10 核对。VNDB 记录显示原语言为日语，2005-08-02 发行，开发者包含 Stage-nana 与 Regista Co.,Ltd.。详情页会在联网时从 VNDB 官方 API 补充原名、别名、语言与平台；本应用不抓取或展示 VNDB 的简介、封面、评分与截图。",
       "genres": [
-        "测试",
-        "奇幻"
+        "视觉小说"
       ],
       "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
         "Android"
       ],
       "languages": [
+        "日语",
+        "英语",
+        "简体中文",
+        "繁体中文"
+      ],
+      "rating": null,
+      "playtimeHours": null,
+      "accentColor": "#2F5D8A",
+      "isDemo": false,
+      "downloads": [],
+      "aliases": [
+        "ナルキッソス",
+        "ナルキ"
+      ],
+      "vndbId": "v10"
+    },
+    {
+      "id": "planetarian",
+      "title": "planetarian ~Chiisana Hoshi no Yume~",
+      "originalTitle": "planetarian ～ちいさなほしのゆめ～",
+      "developer": "Key",
+      "releaseYear": 2004,
+      "ageRating": "全年龄（本地标注）",
+      "tagline": "Key 于 2004 年发行的全年龄视觉小说。",
+      "summary": "本条目的标题、原名、开发者与发行信息已按 VNDB v34 核对。VNDB 记录显示原语言为日语，2004-11-29 发行，开发者为 Key。详情页会在联网时从 VNDB 官方 API 补充别名、语言与平台；本应用不抓取或展示 VNDB 的简介、封面、评分与截图。",
+      "genres": [
+        "视觉小说"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "languages": [
+        "日语",
+        "英语",
+        "简体中文",
+        "繁体中文"
+      ],
+      "rating": null,
+      "playtimeHours": null,
+      "accentColor": "#3A6EA5",
+      "isDemo": false,
+      "downloads": [],
+      "aliases": [
+        "星之夢"
+      ],
+      "vndbId": "v34"
+    },
+    {
+      "id": "harmonia",
+      "title": "Harmonia",
+      "originalTitle": "Harmonia -ハルモニア-",
+      "developer": "Key",
+      "releaseYear": 2016,
+      "ageRating": "全年龄（本地标注）",
+      "tagline": "Key 于 2016 年发行的全年龄视觉小说。",
+      "summary": "本条目的标题、原名、开发者与发行信息已按 VNDB v16510 核对。VNDB 记录显示原语言为日语，2016-09-23 发行，开发者为 Key。详情页会在联网时从 VNDB 官方 API 补充别名、语言与平台；本应用不抓取或展示 VNDB 的简介、封面、评分与截图。",
+      "genres": [
+        "视觉小说"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "languages": [
+        "日语",
+        "英语",
         "简体中文"
       ],
-      "rating": 4.1,
-      "playtimeHours": 3,
-      "accentColor": "#6B4E9B",
-      "isDemo": true,
-      "downloads": [
-        {
-          "kind": "direct_link",
-          "label": "直链下载（测试占位）",
-          "url": null,
-          "available": false,
-          "note": "测试数据，不提供任何真实文件地址"
-        },
-        {
-          "kind": "cloud_share",
-          "label": "网盘分享（测试占位）",
-          "url": null,
-          "available": false,
-          "note": "测试数据，不接入任何网盘或提取码流程"
-        },
-        {
-          "kind": "source_page",
-          "label": "原始资源页（测试占位）",
-          "url": null,
-          "available": false,
-          "note": "测试数据，无真实来源页可跳转"
-        }
-      ]
+      "rating": null,
+      "playtimeHours": null,
+      "accentColor": "#7A5C9E",
+      "isDemo": false,
+      "downloads": [],
+      "aliases": [],
+      "vndbId": "v16510"
+    },
+    {
+      "id": "clannad",
+      "title": "CLANNAD",
+      "originalTitle": null,
+      "developer": "Key",
+      "releaseYear": 2004,
+      "ageRating": "全年龄（本地标注）",
+      "tagline": "Key 于 2004 年发行的全年龄视觉小说。",
+      "summary": "本条目的标题、开发者与发行信息已按 VNDB v4 核对。VNDB 记录显示原语言为日语，2004-04-28 发行，开发者为 Key。详情页会在联网时从 VNDB 官方 API 补充别名、语言与平台；本应用不抓取或展示 VNDB 的简介、封面、评分与截图。",
+      "genres": [
+        "视觉小说"
+      ],
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "languages": [
+        "日语",
+        "英语",
+        "简体中文"
+      ],
+      "rating": null,
+      "playtimeHours": null,
+      "accentColor": "#B0672F",
+      "isDemo": false,
+      "downloads": [],
+      "aliases": [
+        "クラナド",
+        "团子大家族"
+      ],
+      "vndbId": "v4"
+    },
+    {
+      "id": "summer-pockets",
+      "title": "Summer Pockets",
+      "originalTitle": null,
+      "developer": "Key",
+      "releaseYear": 2018,
+      "ageRating": "全年龄（本地标注）",
+      "tagline": "Key 于 2018 年发行的全年龄视觉小说。",
+      "summary": "本条目的标题、开发者与发行信息已按 VNDB v20424 核对。VNDB 记录显示原语言为日语，2018-06-29 发行，开发者为 Key。详情页会在联网时从 VNDB 官方 API 补充别名、语言与平台；本应用不抓取或展示 VNDB 的简介、封面、评分与截图。",
+      "genres": [
+        "视觉小说"
+      ],
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "languages": [
+        "日语",
+        "英语",
+        "简体中文"
+      ],
+      "rating": null,
+      "playtimeHours": null,
+      "accentColor": "#3A7F7A",
+      "isDemo": false,
+      "downloads": [],
+      "aliases": [
+        "サマーポケッツ",
+        "サマポケ",
+        "SumPock",
+        "Samapoke",
+        "夏日口袋",
+        "Summer Pockets(無印)",
+        "SPRB"
+      ],
+      "vndbId": "v20424"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "id": "src-narcissu-steam",
+      "site": "steam",
+      "siteName": "Steam",
+      "pageUrl": "https://store.steampowered.com/app/264380/",
+      "pageTitle": "Narcissu 1st & 2nd",
+      "workId": "narcissu",
+      "languages": [
+        "English",
+        "Japanese"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "versionLabel": null,
+      "availability": "unknown",
+      "verificationBasis": "http_only",
+      "checkedAtMillis": 1793041200000,
+      "note": "2026-10-27 通过 HTTP 请求确认该页面可访问（状态码 200）；未验证购买、区域、版本或下载可用性。",
+      "matchMethod": "manual",
+      "matchConfidence": "confirmed",
+      "candidateWorkIds": []
+    },
+    {
+      "id": "src-planetarian-steam",
+      "site": "steam",
+      "siteName": "Steam",
+      "pageUrl": "https://store.steampowered.com/app/623080/",
+      "pageTitle": "planetarian HD",
+      "workId": "planetarian",
+      "languages": [
+        "Simplified Chinese",
+        "Japanese",
+        "German",
+        "Traditional Chinese",
+        "French",
+        "Spanish",
+        "English"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "versionLabel": null,
+      "availability": "unknown",
+      "verificationBasis": "http_only",
+      "checkedAtMillis": 1793041200000,
+      "note": "2026-10-27 通过 HTTP 请求确认该页面可访问（状态码 200）；未验证购买、区域、版本或下载可用性。",
+      "matchMethod": "manual",
+      "matchConfidence": "confirmed",
+      "candidateWorkIds": []
+    },
+    {
+      "id": "src-harmonia-steam",
+      "site": "steam",
+      "siteName": "Steam",
+      "pageUrl": "https://store.steampowered.com/app/421660/",
+      "pageTitle": "Harmonia",
+      "workId": "harmonia",
+      "languages": [
+        "English",
+        "Simplified Chinese"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "versionLabel": null,
+      "availability": "unknown",
+      "verificationBasis": "http_only",
+      "checkedAtMillis": 1793041200000,
+      "note": "2026-10-27 通过 HTTP 请求确认该页面可访问（状态码 200）；未验证购买、区域、版本或下载可用性。",
+      "matchMethod": "manual",
+      "matchConfidence": "confirmed",
+      "candidateWorkIds": []
+    },
+    {
+      "id": "src-clannad-steam",
+      "site": "steam",
+      "siteName": "Steam",
+      "pageUrl": "https://store.steampowered.com/app/324160/",
+      "pageTitle": "CLANNAD",
+      "workId": "clannad",
+      "languages": [
+        "English",
+        "Simplified Chinese"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "versionLabel": null,
+      "availability": "unknown",
+      "verificationBasis": "http_only",
+      "checkedAtMillis": 1793041200000,
+      "note": "2026-10-27 通过 HTTP 请求确认该页面可访问（状态码 200）；未验证购买、区域、版本或下载可用性。",
+      "matchMethod": "manual",
+      "matchConfidence": "confirmed",
+      "candidateWorkIds": []
+    },
+    {
+      "id": "src-summer-pockets-steam",
+      "site": "steam",
+      "siteName": "Steam",
+      "pageUrl": "https://store.steampowered.com/app/897220/",
+      "pageTitle": "Summer Pockets",
+      "workId": "summer-pockets",
+      "languages": [
+        "English",
+        "Simplified Chinese"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "versionLabel": null,
+      "availability": "unknown",
+      "verificationBasis": "http_only",
+      "checkedAtMillis": 1793041200000,
+      "note": "2026-10-27 通过 HTTP 请求确认该页面可访问（状态码 200）；未验证购买、区域、版本或下载可用性。",
+      "matchMethod": "manual",
+      "matchConfidence": "confirmed",
+      "candidateWorkIds": []
+    },
+    {
+      "id": "src-clannad-side-stories-steam",
+      "site": "steam",
+      "siteName": "Steam",
+      "pageUrl": "https://store.steampowered.com/app/420100/",
+      "pageTitle": "CLANNAD Side Stories",
+      "workId": null,
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "versionLabel": null,
+      "availability": "unknown",
+      "verificationBasis": "http_only",
+      "checkedAtMillis": 1793041200000,
+      "note": "2026-10-27 通过 HTTP 请求确认该页面可访问（状态码 200）；页面标题与当前目录作品相似，但没有人工确认归属，因此保持未匹配并只作为候选。未验证购买、区域、版本或下载可用性。",
+      "matchMethod": "none",
+      "matchConfidence": "none",
+      "candidateWorkIds": []
+    }
+  ],
+  "source": {
+    "kind": "remote-static",
+    "path": "ag-store-index-test/main/games.json",
+    "note": "M2 待发布的远程测试索引；与内置目录使用同一 schema。"
+  }
 }
